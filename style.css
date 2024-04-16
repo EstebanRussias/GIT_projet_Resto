@@ -17,6 +17,7 @@
 
   h1{
     color: white;
+    margin-left: 50px;
     font-size: 10rem;
     font-family: "Dancing Script", cursive;
 
@@ -87,13 +88,14 @@ nav ul li{
 }
 
 #texte_page p {
+    margin-left: 15px;
     font-size: 3rem;
     color: white;
     font-family: "Roboto Mono", monospace;
 
 }
 #texte_page button {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "Roboto Mono", monospace;
 
     background-color: transparent;
@@ -157,7 +159,7 @@ footer{
     width: 30vw;
   }
   #logo_footer{
-    border-right: 2px solid rgb(168, 146, 118);
+    border-right: 2px solid black;
     padding: 50px;
   }
   #logo_footer img{
@@ -165,7 +167,8 @@ footer{
   }
   #ressaux_sociaux{
     display: flex;
-    
+    justify-content: space-around;
+    align-items: center;
   }
   
   #ressaux_sociaux img{
@@ -174,7 +177,7 @@ footer{
     padding: 15px;
     width: 50px;
     height: 50px;
-    margin: 15px;
+    
   }
   #ressaux_sociaux a{
     text-align: center;
@@ -184,10 +187,9 @@ footer{
   #ressaux_sociaux img:hover{
     background-color: transparent;
     filter: invert(100%);
-  
-    width: 65px;
-    height: 65px;
-    margin: 0px;
+    width: 80px;
+    height: 80px;
+   
     transition: 0.4s;
   }
 
