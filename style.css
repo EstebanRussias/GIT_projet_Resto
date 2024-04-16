@@ -21,3 +21,59 @@ nav ul li{
     margin-top: 38px;    
     text-align: center;
 }
+
+#page1{
+    display: flex;
+    align-items: center;
+    height:810px;
+    
+    background: url(/img/valeria.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  #intermede {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  var(--couleur-principale);
+    padding: 15vh;
+
+}
+
+#intermede img {
+    width: 60px ;
+    margin-top: 15px;
+}
+#intermede *{
+    
+    text-align: center;
+    width: 50%;
+}
+
+#texte_page p {
+    font-size: 3rem;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+
+}
+#texte_page button {
+    font-size: 3rem;
+    font-family: "Roboto Mono", monospace;
+
+    background-color: transparent;
+    color: white;
+    border: 4px solid white;
+    width: 30vh;
+    margin-left: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+
+}
+#texte_page button:hover {
+    background-color: white;
+    color: black;
+    
+    
+}
