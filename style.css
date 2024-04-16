@@ -53,6 +53,11 @@ nav ul li{
     text-align: center;
 }
 
+nav img{
+    margin-top: -40px;
+    height: 100px;
+    width: auto;
+}
 /*----- Page 1 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
 
 
@@ -160,10 +165,11 @@ footer{
   }
   #logo_footer{
     border-right: 2px solid black;
-    padding: 50px;
+    padding: 0;
   }
   #logo_footer img{
-    width: 100%;
+    height: 120px;
+
   }
   #ressaux_sociaux{
     display: flex;
