@@ -6,8 +6,18 @@
     --couleur-principale:antiquewhite;
   }
 
+  @keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+  }
+
   h1{
     color: white;
+    margin-left: 50px;
     font-size: 10rem;
     font-family: "Dancing Script", cursive;
 
@@ -25,6 +35,8 @@ h5{
     color:yellow;
 }
 
+/*----- Nav Bar-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
 nav{
     height: 100px;
     background-color: var(--couleur-principale);
@@ -40,6 +52,14 @@ nav ul li{
     margin-top: 38px;    
     text-align: center;
 }
+
+nav img{
+    margin-top: -40px;
+    height: 100px;
+    width: auto;
+}
+/*----- Page 1 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
 
 #page1{
     display: flex;
@@ -73,13 +93,14 @@ nav ul li{
 }
 
 #texte_page p {
+    margin-left: 15px;
     font-size: 3rem;
     color: white;
     font-family: "Roboto Mono", monospace;
 
 }
 #texte_page button {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "Roboto Mono", monospace;
 
     background-color: transparent;
@@ -96,6 +117,9 @@ nav ul li{
     
     
 }
+
+/*----- Page Avis & Maps -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
 
 #avis{
     display: flex;
@@ -119,15 +143,61 @@ nav ul li{
     border-radius: 10% ;
 }
 
-footer{
-    background-color: var(--couleur-principale);
-    height: 150px;
-    margin-top: 15vh;
-}
-
 header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 8vh;
 }
+
+/*----- Footer -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+footer{
+    height: 150px;
+    margin-top: 10vh;
+    background-color: var(--couleur-principale);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer{
+    width: 30vw;
+  }
+  #logo_footer{
+    border-right: 2px solid black;
+    padding: 0;
+  }
+  #logo_footer img{
+    height: 120px;
+
+  }
+  #ressaux_sociaux{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #ressaux_sociaux img{
+    background-color: white;
+    clip-path: circle(50.0% at 50% 50%);
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    
+  }
+  #ressaux_sociaux a{
+    text-align: center;
+    
+  }
+  
+  #ressaux_sociaux img:hover{
+    background-color: transparent;
+    filter: invert(100%);
+    width: 80px;
+    height: 80px;
+   
+    transition: 0.4s;
+  }
+
+
+  
