@@ -208,7 +208,6 @@ footer{
 }
 .page{
   margin: auto;
-  height: 100vh;
   width: 60vw ;
   background-color: var(--couleur-principale);
 }
@@ -226,7 +225,8 @@ footer{
   font-family: "Dancing Script", cursive;
   font-size: 55px;
   color: black;
-  margin-bottom: 25px;
+  margin-top : 50px;
+  margin-bottom: 50px;
   
 }
 #texte_menu h3{
@@ -239,4 +239,20 @@ footer{
 
 }
 
+.info{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.info p{
+  width: 60%;
+  font-family: "Caveat", cursive;
+
+
+}
+.imgmenu{
+  width: auto;
+  height: 200px;
+  border-radius: 100%;
+}
 
