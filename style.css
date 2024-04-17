@@ -200,4 +200,43 @@ footer{
   }
 
 
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+#menu{
+  background-color: whitesmoke;
+}
+.page{
+  margin: auto;
+  height: 100vh;
+  width: 60vw ;
+  background-color: var(--couleur-principale);
+}
+
+.piedpage{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 15vh;
+  padding: 5px;
+  background-color:  var(--couleur-principale);
+}
+#texte_menu h1{
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 55px;
+  color: black;
+  margin-bottom: 25px;
   
+}
+#texte_menu h3{
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  display: block;
+  border-bottom: 2px dotted black;
+  margin-bottom: 50px;
+
+}
+
+
