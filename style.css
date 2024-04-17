@@ -1,10 +1,13 @@
 *{
     box-sizing:border-box;margin:0;padding:0;border:0;font-size:13px;font:inherit;font-family:Arial,Helvetica,sans-serif;vertical-align:baseline;text-decoration: none;color: black;list-style-type: none ;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 :root {
     --couleur-principale:antiquewhite;
   }
+  
 
   @keyframes bounce {
     0%, 100% {
@@ -52,6 +55,10 @@ nav ul li{
     margin-top: 38px;    
     text-align: center;
 }
+nav ul li:hover{
+  transition: 2s;
+  animation: bounce 1s ease infinite;
+}
 
 nav img{
     margin-top: -40px;
@@ -66,7 +73,7 @@ nav img{
     align-items: center;
     height:810px;
     
-    background: url(/img/valeria.jpg) no-repeat center center fixed; 
+    background: url(img/valeria.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -102,7 +109,6 @@ nav img{
 #texte_page button {
     font-size: 2rem;
     font-family: "Roboto Mono", monospace;
-
     background-color: transparent;
     color: white;
     border: 4px solid white;
@@ -111,11 +117,23 @@ nav img{
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 
 }
+#texte_page button a{
+  color: white;
+}
+#texte_page button a:hover{
+  color: black;
+}
 #texte_page button:hover {
     background-color: white;
     color: black;
     
     
+}
+
+#carte_lien:hover{
+  transition: 2s;
+  animation: bounce 1s ease infinite;
+
 }
 
 /*----- Page Avis & Maps -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
@@ -146,6 +164,7 @@ nav img{
 header{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
     margin-top: 8vh;
 }
